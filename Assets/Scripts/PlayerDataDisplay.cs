@@ -30,7 +30,7 @@ public class PlayerDataDisplay : MonoBehaviour
         healthSlider.value = playerData.health;
         healthText.text = "Health: " + playerData.health;
 
-       
+        
         if (playerData.isAlive == true)
         {
             statusText.text = "Status: Alive";
